@@ -1,0 +1,24 @@
+.navbar {
+  height: 150px;
+  background-color: yellow;
+  color: black;
+}
+.navWrapper {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  align-items: center;
+}
+.list {
+  display: flex;
+  flex-flow: row nowrap;
+}
+.listItem {
+  list-style-type: none;
+  border: 2px solid blue;
+  padding: 1em;
+}
+
+.listItem > * {
+  text-decoration: none;
+}
